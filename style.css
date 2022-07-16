@@ -1,0 +1,87 @@
+    
+    body{
+        background-image: url("C:\Users\Hp\Pictures\Screenshots");
+    }
+    h1{
+        background-color: darkgrey;
+        border-radius: 10px;
+        text-shadow: 1px 2px 2px darkblue,;
+    
+    }
+        
+    div.gallery {
+      margin: 100px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 150px;
+      box-shadow: 10px 10px lightblue;
+      transition: width 2s;
+      
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+      opacity: 0.1;
+      transform: scaleX(-1);
+      object-fit: cover;
+      
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      color: blue;
+    }
+    .footer{
+        float: left;
+        padding: 0px;
+        margin: 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: #111;
+        border-radius: 10px;
+       
+        
+    }
+
+ ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1f1d1d;
+          }
+li{
+ float: left;
+}     
+li a{
+    display: block;
+    padding: 14px 16px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+   
+} 
+li a:hover{
+background-color: #111;
+}    
+p {
+    width: 100px;
+    height: 50px;
+    background: red;
+    border-radius: 5px;
+    transition: width 10s,height 2s,transform 2s;
+  }
+  
+  p:hover{
+    width: 100%;
+   
+  }
+  .mask1{
+    -webkit-mask-imag:url(w3logo.png);
+  }
